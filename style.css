@@ -185,8 +185,8 @@ button {
   font-weight: 700;
 }
 
-.clr-white {
-  color: var(--clr-white-400);
+.clr-accent {
+  color: var(--clr-accent);
 }
 
 .flow > * + * {

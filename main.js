@@ -5,7 +5,7 @@ const body = document.querySelector('body');
 const primaryNav = document.querySelector('.primary-nav');
 const issueLinks = document.querySelectorAll('.issue-link');
 
-const oberver = new IntersectionObserver(issueIsVisible, { threshold: 0.2 });
+const oberver = new IntersectionObserver(issueIsVisible, { threshold: 0.7 });
 
 document.addEventListener('DOMContentLoaded', () => {
   issues.forEach((issue) => oberver.observe(issue));
